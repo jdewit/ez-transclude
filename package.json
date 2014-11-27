@@ -1,0 +1,22 @@
+{
+  "name": "ez-transclude",
+  "description": "Transclude with scope maintained",
+  "keywords": [],
+  "version": "0.0.1",
+  "private": false,
+  "author": "Joris de Wit",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "item": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "grunt": "0.4.*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*"
+  }
+}
