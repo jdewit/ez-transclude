@@ -4,7 +4,7 @@
  * Fix for breaking change in 1.20
  * see https://github.com/angular/angular.js/issues/7874
  */
-angular.module(['ez.transclude']).directive('ezTransclude', function() {
+angular.module('ez.transclude', []).directive('ezTransclude', function() {
 	return {
 		link: function($scope, $element, $attrs, controller, $transclude) {
 			var innerScope = $scope.$new();
